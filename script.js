@@ -1,4 +1,4 @@
- // Seletores de elementos HTML
+// Seletores de elementos HTML
 const caixaPrincipal = document.querySelector(".caixa-principal");
 const caixaPerguntas = document.querySelector(".caixa-perguntas");
 const caixaAlternativas = document.querySelector(".caixa-alternativas");
@@ -8,16 +8,16 @@ const textoResultado = document.querySelector(".texto-resultado");
 // Array de objetos com as perguntas e alternativas
 const perguntas = [
   {
-    enunciado: "Qual é a capital do Brasil?",
-    alternativas: ["Brasília", "Rio de Janeiro"]
+    enunciado: " IA pode escrever textos e responder perguntas?",
+    alternativas: [" sim ", " não."]
   },
   {
-    enunciado: "Qual linguagem é usada para estilizar páginas web?",
-    alternativas: ["CSS", "Python"]
+    enunciado: " A inteligência artificial aprende com: ",
+    alternativas: [" Experiências e dados ", " Sorte e adivinhação "]
   },
   {
-    enunciado: "JavaScript é uma linguagem de programação?",
-    alternativas: ["Sim", "Não"]
+    enunciado: "Um exemplo de uso da IA é: ",
+    alternativas: [" Um robô que responde perguntas ", " Um espelho comum "]
   }
 ];
 

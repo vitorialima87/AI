@@ -8,11 +8,14 @@
   
   /* Fundo da página */
   body {
-    background-color: #000; /* Fundo preto, como no protótipo */
+    background-image: url("ia.jpeg"); /* ou fundo.png */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
     color: #fff;            /* Texto branco */
     font-family: Arial, sans-serif;
     display: flex;
-    justify-content: center;
     align-items: center;
     min-height: 100vh;
     padding: 20px;
@@ -50,8 +53,8 @@
   /* Estilo dos botões de alternativas */
   .caixa-alternativas button {
     padding: 12px;
-    background-color: #f5f1f1;
-    color: #d8275c;
+    background-color: #db8888;
+    color: #8827d8;
     border: 1px solid #d11755;
     border-radius: 5px;
     cursor: pointer;
@@ -59,7 +62,7 @@
   }
   
   .caixa-alternativas button:hover {
-    background-color: #a59e9e;
+    background-color: #9b5353;
   }
   
   /* Resultado */
@@ -71,6 +74,6 @@
   .texto-resultado {
     font-size: 20px;
     text-align: center;
-    color: #00ff99; /* Verde claro, pode ajustar conforme o design */
+    color: #c98fc1; /* Verde claro, pode ajustar conforme o design */
   }
   
