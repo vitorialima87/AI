@@ -8,7 +8,7 @@
   
   /* Fundo da página */
   body {
-    background-image: url("ia.jpeg"); /* ou fundo.png */
+    background-image: url("ia.png"); /* ou fundo.png */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
